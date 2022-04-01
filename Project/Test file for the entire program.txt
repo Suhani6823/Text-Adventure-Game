@@ -1,0 +1,21 @@
+
+The components in my program cannot be tested separately as each component calls the next one and so on until the output is displayed, 
+meaning that the test files will all be repetitive. Hence, I have instead created a test file that tests the entire program.
+
+
+
+
+begin     name     start     answer     riddle     first     secondV     luckyanswer    thirdV       Output
+1         Lea      yes       2          4562       2         3           8              3            Player name: Lea
+												     Times played: 1
+ 												     Grade achieved:B-
+1         Sam      yes       2          3684       1         3           4              3            Player name: Sam
+												     Times played: 1
+ 												     Grade achieved:B
+1         Kate     no        3                                                                       
+												     
+ 												     
+1         Kate     no        2          8745       3          1          3              3            Player name: Kate
+												     Times played: 1
+												     Grade achieved:B
+2
